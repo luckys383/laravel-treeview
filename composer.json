@@ -1,0 +1,31 @@
+{
+    "name": "lucky383/laravel-treeview",
+    "description": "Laravel Tree view",
+    "authors": [
+        {
+            "name": "Lakhwinder Singh",
+            "email": "luckys383@gmail.com"
+        }
+    ],
+    "keywords": [
+        "tree-view",
+        "multi-listing",
+        "nested-tree"
+    ],
+    "type": "composer-plugin",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LaravelTreeView\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelTreeView\\LaravelTreeviewServiceProvider"
+            ]
+        }
+    }
+}
